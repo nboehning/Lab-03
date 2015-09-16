@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public enum ObjectType
 {
@@ -24,8 +23,8 @@ public enum HealingTypes
 
 public enum HealingPickups
 {
-    CONTACT,
-    INTERACTION
+    COLLIDED,
+    INTERACTED
 }
 
 [System.Serializable]
